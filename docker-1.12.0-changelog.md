@@ -56,7 +56,7 @@ Docker 1.12 在今年6月下旬的DockerCon 2016上就暂露头角，然而，�
 + 同时允许`docker network inspect -f {{.Id}}`和`docker network inspect -f {{.ID}}`来说明输出内容的不一致性
 
 ## 试验性质的功能（experimental）
-+ 实现新的`plugin`命令来管理各种插件，同时实现了该命令下的子命令`install`,`enbale`,`disable`,`rm`,`inspect`,`set`
++ 实现新的`plugin`命令来管理各种插件，同时实现了该命令下的子命令`install`,`enable`,`disable`,`rm`,`inspect`,`set`
 
 ## Docker Engine API(v1.24)以及DockerCLI
 + 将原有的docker二进制文件，拆分为两个不同的二进制文件，分别为`docker(client)`以及`dockerd(daemon)`
